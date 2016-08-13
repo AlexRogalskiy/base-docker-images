@@ -3,7 +3,7 @@ MAINTAINER Dmitry Petrov <dmitry@fullstackml.com>
 
 LABEL com.fullstackml = "true" \
       com.fullstackml.function = "base-docker-images/spark-base" \
-      com.fullstackml.version = "0.01"
+      com.fullstackml.version = "1.0"
 
 # Install Apache Spark
 RUN apt-get install -y ssh && \

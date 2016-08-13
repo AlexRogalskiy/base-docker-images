@@ -3,7 +3,7 @@ MAINTAINER Dmitry Petrov <dmitry@fullstackml.com>
 
 LABEL com.fullstackml = "true" \
       com.fullstackml.function = "base-docker-images/spark-hadoop-base" \
-      com.fullstackml.version = "0.01"
+      com.fullstackml.version = "1.0"
 
 # Install Hadoop
 RUN wget http://www-eu.apache.org/dist/hadoop/common/hadoop-2.7.2/hadoop-2.7.2.tar.gz 2>/dev/null && \

@@ -3,7 +3,7 @@ MAINTAINER Dmitry Petrov <dmitry@fullstackml.com>
 
 LABEL com.fullstackml = "true" \
       com.fullstackml.function = "base-docker-images/debian-java" \
-      com.fullstackml.version = "0.01"
+      com.fullstackml.version = "1.0"
 
 # Install java. See http://www.webupd8.org/2014/03/how-to-install-oracle-java-8-in-debian.html
 RUN apt-get update --fix-missing && \
