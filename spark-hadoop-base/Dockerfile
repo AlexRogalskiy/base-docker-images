@@ -1,4 +1,4 @@
-FROM fullstackml/spark-base
+FROM fullstackml/spark-base:1.0
 MAINTAINER Dmitry Petrov <dmitry@fullstackml.com>
 
 LABEL com.fullstackml = "true" \
