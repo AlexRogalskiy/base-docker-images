@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t fullstackml/rstats-spark .
+docker build -t fullstackml/rstats-base .
