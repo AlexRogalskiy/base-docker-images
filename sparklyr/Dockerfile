@@ -1,4 +1,4 @@
-FROM fullstackml/rstats-base:latest
+FROM kaggle/rstats:latest
 MAINTAINER Dmitry Petrov <dmitry@fullstackml.com>
 
 LABEL com.fullstackml = "true" \
