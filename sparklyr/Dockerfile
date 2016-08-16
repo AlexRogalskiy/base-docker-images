@@ -12,4 +12,4 @@ RUN wget http://d3kbcqa49mib13.cloudfront.net/spark-2.0.0-bin-hadoop2.7.tgz 2>/d
     R -e 'install.packages("devtools")' && \
     R -e 'devtools::install_github("rstudio/sparklyr")'
 
-ENV SPARK_HOME /usr/local/spark
+#ENV SPARK_HOME /usr/local/spark
