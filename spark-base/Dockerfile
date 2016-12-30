@@ -1,4 +1,4 @@
-FROM fullstackml/debian-java:1.0
+FROM fullstackml/debian-java
 MAINTAINER Dmitry Petrov <dmitry@fullstackml.com>
 
 LABEL com.fullstackml = "true" \
